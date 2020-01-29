@@ -20,3 +20,7 @@ linkedin >= 12 | facebook >= 12
 
 # When is views between 11 (exclusive) and 14 (inclusive)?
 views > 11 & views <= 14
+
+x <- 5
+y <- 7
+!(!(x < 4) & !!!(y > 12))
